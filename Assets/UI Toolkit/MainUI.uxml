@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/text.uss?fileID=7433441132597879392&amp;guid=b5e86c466b3a91848b58f7cd0f270390&amp;type=3#text" />
+    <ui:VisualElement style="height: 37px; justify-content: center; align-items: flex-end; margin-left: 30px; margin-right: 30px; margin-top: 30px; margin-bottom: 30px;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>
