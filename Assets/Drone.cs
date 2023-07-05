@@ -7,6 +7,7 @@ public class Drone : MonoBehaviour
     public dronemanager manager;
     public Rigidbody2D rb;
     public Vector2 velocity;
+    public Vector2 maxVChange;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,8 @@ public class Drone : MonoBehaviour
     void Update()
     {
         rb.velocity = velocity;
+
+        velocity = velocity + maxVChange * Random.Range(-0.9f, 0.9f) * Time.deltaTime;
     }
 
     void OnTriggerEnter2D(Collider2D col)
